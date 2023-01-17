@@ -1,0 +1,47 @@
+#skills {
+    width: 75%;
+    margin: 3rem auto;
+}
+
+#skills th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(4, 169, 109, 0.3);
+    color: white;
+}
+
+#skills th, #skills td {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 3px;
+}
+
+#skills tr:nth-child(even){background-color: #f2f2f2;}
+
+#skills tr:hover {background-color: #ddd;}
+
+#projects-section {
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
+#projects-link {
+    margin: 2rem;
+}
+
+#projects-link a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem 2.5rem;
+    color: #dc3e26;
+    background-color: #edcd44;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#projects-link a:hover,
+#projects-link a:active {
+    background-color: #dc3e26;
+    color:  #edcd44;
+  }
