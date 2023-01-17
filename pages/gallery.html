@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/gallery.css" />
+    <link rel="shortcut icon" type="image/jpg" href="../images/logo.png"/>
+    <script src="../scripts/script.js" defer ></script>
+  </head>
+  <body>
+    <header>
+      <div><a href="https://perscholas.org">Per Scholar</a></div>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../pages/about.html">About</a>
+        <a href="../pages/gallery.html">Gallery</a>
+      </nav>
+    </header>
+
+    <div class="heading">
+      <h1>Don't take our word</h1>
+      <h3>Join us</h3>
+    </div>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/fLem5_2NC9M"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <h3 id="text">Share your recommendations with us.</h3>
+    <form class="card">
+      <div>
+        <label>Fullname</label>
+        <input type="text" name="user-name" placeholder="enter your name" />
+      </div>
+      <div>
+      <label>Membership</label></div>
+      <div class="radio">
+        <input type="radio" name="status" id="visitor" />
+        <label for="visitor">Visitor</label>
+        <input type="radio" name="status" id="member" />
+        <label for="member">Member</label>
+      </div>
+      <div>
+        <label>Recommendation</label>
+        <textarea name="recommendation" rows="4" cols="50">share with us...</textarea>
+      </div>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+    <footer>
+      <div>
+        <p>Copyright &copy; Per Scholas | Niveen <span id="year"></span></p>
+        <ul>
+            <li><a href="https://www.facebook.com"><img src="../icons/facebook.png" alt="Join Us on FaceBook"></a></li>
+            <li><a href="https://www.instagram.com"><img src="../icons/insta.png" alt="Join Us on Instagram"></a></li>
+        </ul>
+      </div>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+iframe {
+  margin-top: 2rem;
+}
+
+.card div {
+  text-align: left;
+  padding: 4px 0;
+}
+
+label {
+  width: 20%;
+  margin: 6px;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+}
+
+.radio label,
+.radio input {
+  cursor: pointer;
+}
+
+.radio input[type="radio"] {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+#text {
+  font-style: inherit;
+  font-size: 1.5rem;
+  padding-top: 2.5rem;
+  margin: 1rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: #dc3e26;
+  color: #edcd44;
+  font: inherit;
+  font-size: 1.25rem;
+  padding: 0.75rem 2rem;
+  border: 1px solid #dc3e26;
+  border-radius: 8px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #edcd44;
+  border-color: #edcd44;
+  color: #dc3e26;
+}
